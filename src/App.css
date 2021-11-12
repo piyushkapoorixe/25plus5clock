@@ -1,0 +1,44 @@
+/*body {
+  background-color: #1e555c;
+}*/
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  animation: myanimation 30s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: brown;}
+  10%{background-color:yellow;}
+  20%{background-color: mediumslateblue;}
+  30%{background-color: aqua;}
+  40%{background-color: orange;}
+  50%{background-color: mediumspringgreen;}
+  60%{background-color: moccasin;}
+  70%{background-color:yellowgreen;}
+  80%{background-color:mediumvioletred;}
+  90%{background-color: magenta;}
+  100%{background-color: brown;}
+}
+.white-text {
+  color: white;
+}
+.right {
+  text-align: right;
+}
+.m-r-50 {
+  margin-right: 50px;
+}
+.m-l-50 {
+  margin-left: 50px;
+}
+.box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.m-t-40 {
+  margin-top: 40px;
+}
